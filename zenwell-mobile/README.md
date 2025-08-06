@@ -1,6 +1,6 @@
 # ZenWell Mobile
 
-ZenWell Mobile is the React Native version of the ZenWell wellness companion, built with **Expo** for easy deployment to Android devices. This app allows you to track your daily habits, journal your thoughts, chat with an AI assistant (placeholder) and manage simple settings. It is designed to run natively on Android and can be previewed using **Expo Go**.
+ZenWell Mobile is the React Native version of the ZenWell wellness companion, built with **Expo SDK 53** for easy deployment to Android devices. This version targets **React Native 0.79** and **Expo 53**, which are required to run the app in the latest **Expo Go** and to comply with Google Play’s target API level requirements【980526190401789†L150-L217】. The app allows you to track your daily habits, journal your thoughts, chat with an AI assistant (placeholder), and manage simple settings. It is designed to run natively on Android and can still be previewed using **Expo Go**.
 
 ## Features
 
@@ -10,14 +10,16 @@ ZenWell Mobile is the React Native version of the ZenWell wellness companion, b
 * **Chat** – Simple chat interface with placeholder AI responses ready to be connected to a backend.
 * **Settings** – Toggle dark mode (persisted via `AsyncStorage`; UI theming not yet applied).
 
-## Installation
+## Installation and Upgrade Notes
 
 ### Prerequisites
 
-* Node.js ≥ 16
+* Node.js **≥ 18** (Node 16 has reached end‑of‑life and some Expo SDK 53 tooling requires Node 18 or newer)
 * npm or Yarn
-* Expo CLI (install globally with `npm install -g expo-cli`)
-* Android device (e.g. Google Pixel) with **Expo Go** installed from the Play Store
+* Expo CLI (install globally with `npm install -g expo-cli`). We recommend using Expo CLI **7.x** or later for full SDK 53 support.
+* Android device (e.g. Google Pixel) with **Expo Go** (version supporting SDK 53, released in May 2025) installed from the Play Store【564716476440497†L12-L16】
+
+> **Upgrade note:** This project was upgraded from Expo SDK 49 to **SDK 53**. If you previously cloned the repository or installed dependencies, please remove your `node_modules` folder and run a fresh `npm install`. Mismatched versions (e.g., using React Native 0.72 with Expo 53) can cause build errors or runtime crashes.
 
 ### Setup
 
@@ -43,6 +45,7 @@ ZenWell Mobile is the React Native version of the ZenWell wellness companion, b
 1. **Make sure your computer and phone are on the same Wi‑Fi network.**
 2. **Open Expo Go** on your Google Pixel.
 3. **Scan the QR code** displayed in the terminal or the browser window after running `npm start`.
+   The QR code bundle URL should indicate `sdkVersion=53`. If it shows an older SDK or if Expo Go warns that your app is using an unsupported SDK version, ensure that you have reinstalled dependencies and updated Expo Go to the latest version.
 4. **Allow Expo Go to load the app**. It may take a moment to bundle the JavaScript.
 
 ### Alternate: Using Android Studio
