@@ -15,8 +15,8 @@ These instructions will help you set up ZenWell locally.
 
 ### Prerequisites
 
-* **Node.js** (version ≥ 16)
-* **npm** (version ≥ 6)
+* **Node.js** (version ≥ 18). While the web app will likely work with Node 16, we recommend Node 18 or newer to match the mobile project and to use the latest features.
+* **npm** (version ≥ 8)
 
 ### Installation
 
@@ -61,4 +61,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Mobile Version
 
-If you want to run ZenWell as a native Android app, see the [`zenwell-mobile`](../zenwell-mobile) directory. It contains a React Native implementation built with Expo that can be run in the Expo Go app or via Android Studio.
+If you want to run ZenWell as a native Android app, see the [`zenwell-mobile`](../zenwell-mobile) directory. It contains a React Native implementation built with **Expo SDK 53** (React Native 0.79) that can be run in the Expo Go app or via Android Studio. Refer to its README for upgrade instructions and compatibility notes.
