@@ -58,3 +58,7 @@ Contributions are welcome! Please fork the repo and submit a pull request with y
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Mobile Version
+
+If you want to run ZenWell as a native Android app, see the [`zenwell-mobile`](../zenwell-mobile) directory. It contains a React Native implementation built with Expo that can be run in the Expo Go app or via Android Studio.
