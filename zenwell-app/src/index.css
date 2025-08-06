@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+body {
+  @apply bg-gray-50 text-gray-800;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
