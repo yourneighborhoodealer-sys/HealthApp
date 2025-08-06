@@ -1,6 +1,6 @@
 # ZenWell Mobile
 
-ZenWell Mobile is the React Native version of the ZenWell wellness companion, built with **Expo SDK 53** for easy deployment to Android devices. This version targets **React Native 0.79** and **Expo 53**, which are required to run the app in the latest **Expo Go** and to comply with Google Play’s target API level requirements【980526190401789†L150-L217】. The app allows you to track your daily habits, journal your thoughts, chat with an AI assistant (placeholder), and manage simple settings. It is designed to run natively on Android and can still be previewed using **Expo Go**.
+ZenWell Mobile is the React Native version of the ZenWell wellness companion, built with **Expo SDK 53** for easy deployment to Android devices. This version targets **React Native 0.79**, **React 19**, and **Expo 53**, which are required to run the app in the latest **Expo Go** and to comply with Google Play’s target API level requirements【980526190401789†L150-L217】. The app allows you to track your daily habits, journal your thoughts, chat with an AI assistant (placeholder), and manage simple settings. It is designed to run natively on Android and can still be previewed using **Expo Go**.
 
 ## Features
 

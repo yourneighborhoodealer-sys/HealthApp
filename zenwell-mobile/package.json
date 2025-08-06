@@ -13,13 +13,16 @@
     "expo": "^53.0.0",
     "expo-status-bar": "^2.2.3",
     "expo-constants": "^17.1.7",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
     "react-native": "0.79.0",
     "@react-navigation/native": "^6.1.6",
     "@react-navigation/bottom-tabs": "^6.5.7",
     "@react-native-async-storage/async-storage": "^2.2.0",
     "react-native-web": "0.20.0",
     "@expo/vector-icons": "^13.0.0"
+  },
+  "overrides": {
+    "react": "19.0.0"
   }
 }
